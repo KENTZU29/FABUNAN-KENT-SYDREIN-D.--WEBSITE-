@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Message</title>
+        <link rel="stylesheet" href="message.css">
+        <script>
+            function displayAlert(){
+                alert("Message Sent!");
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            <div class="main">
+                <div class="main_box">
+                    <div class="main_head">
+                        <h1>Message</h1>
+                    </div>
+                    <div>
+                        <div class="inputbox">
+                           <textarea name="message" id="messages" placeholder="Your thought in my website" required></textarea>
+                            <label for="messages" class="user_label">Enter your Message</label>
+                        </div>
+                        <div class="login_btn">
+                            <button onclick="displayAlert()" type="submit" class="submitbtn">Send</button>
+                        </div>
+                        <div class="signin">
+                            <span>Are you done?<a href="index.html">  Menu</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
